@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #2A5C79;
+  --color-primary-accent: #5F92C6;
+  --color-luxury-gold: #D4AF37;
+  --color-teal-highlight: #17A2B8;
+  --color-muted-lavender: #BBAACC;
+  --color-text-primary: #0C0B0B;
+  --color-text-dark: #212529;
+  --color-background-off-white: #FCFCFC;
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #DC3545;
+
+  /* Typography */
+  --font-sans: "Montserrat", sans-serif;
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-12: 48px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-26: 104px;
+  --spacing-38: 152px;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-text-primary bg-background-off-white;
+    line-height: 1.5;
+  }
+}
